@@ -1,0 +1,97 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color:darkred;
+}
+
+a {
+	color:red;
+}
+
+.people {
+	width:1500px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	border:10px solid red;
+}
+
+.people:hover {
+	border:50px solid white;
+}
+
+.people img {
+	width:100%;
+	display: block;
+}
+
+.shoe {
+	width:2000px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	transform:skew(-10deg);
+	transition:0.5s;
+}
+
+.shoe img {
+	width:50%;
+	display: block;
+}
+
+.shoe:hover {
+	border:10px solid red;
+	transform:skew(0deg);
+	transition:0.5s;
+}
+
+.links {
+	position:fixed;
+	top:20px;
+	left:20px;
+	z-index:2;
+	font-family: courier;
+}
+
+.links a {
+	text-decoration:none;
+	color:black;
+	text-shadow:0px 0px 20px red;
+	display:block;
+}
+
+.links a:hover {
+	color:yellow;
+}
+
+.name {
+	font-size:200px;
+	text-align:center;
+	text-shadow:0px 0px 20px red;
+}
+
+.copy{
+	font-size:14px;
+	text-align:center;
+	text-transform:uppercase;
+	background-color:yellow;
+	padding:10px;
+}
+
+.hot {
+	position:fixed;
+	top:1000px;
+	right:1000px;
+	width:600px;
+	border:4px solid yellow;
+}
+
+.wink {
+	position:fixed;
+	bottom:1900px;
+	left:700px;
+	width:800px;
+}
+
+
+
