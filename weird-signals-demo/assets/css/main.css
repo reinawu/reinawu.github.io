@@ -1,0 +1,132 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color:black;
+	color:#969696;
+}
+
+a {
+	color:red;
+}
+
+* {
+	outline: 1px darkred;
+}
+
+.menu {
+	width:75px;
+	height:75px;
+	background-color:lightyellow;
+	border-radius:50%;
+	position:fixed;
+	top:40px;
+	right:10px;
+	cursor:pointer;
+}
+
+.close {
+	width:75px;
+	height:75px;
+	background-color:white;
+	position:fixed;
+    border-radius:50%;
+	top:40px;
+	right:10px;
+	z-index:10;
+	cursor:pointer;
+	display:none;
+}
+
+.close.show {
+	display:block;
+}
+
+.essay {
+	width:75%;
+	height:100vh;
+	background-color:black;
+	position:fixed;
+	right:0px;
+	top:0px;
+	overflow:scroll;
+	margin-right:-75%;
+	transition:1s;
+}
+
+.essay.slide {
+	margin-right:0;
+	transition:1s;
+}
+
+.essay h1{
+	font-size:45px;
+	text-align:center;
+	font-family: bond;
+	color: lightyellow;
+}
+
+.essay p{
+	padding:20px;
+	font-family: monospace; 
+}
+
+.source {
+	font-size:20px;
+}
+
+.container {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.item img {
+	width:100%;
+}
+
+.W1of4 {
+	width:25%;
+}
+
+.W2of4 {
+	width:50%;
+}
+
+.W1of2 {
+	width:50%;
+}
+
+.W1of3 {
+	width:33.33%;
+}
+
+.W1of1 {
+    align-items:center;
+    width:75%;
+}
+
+.W1of6 {
+	width:16.667%;
+}
+
+.W1of12 {
+	width:8.333%;
+}
+   
+
+/*  Title  */
+
+.title {
+	font-size:100px;
+	text-align:center;
+	padding-top:60px;
+	padding-bottom:60px;
+}
+
+.masthead {
+	align-items: center;
+	justify-content: space-around;
+}
+.body:hover {
+	border:10px black;
+}
+
