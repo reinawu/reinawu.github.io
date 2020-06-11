@@ -1,0 +1,280 @@
+body {
+	font-family: Helvetica,Arial,bold,sans-serif;
+	font-size: 34px;
+}
+
+a {
+	color:#000;
+	text-decoration: none;
+}
+
+img {
+	width:100%;
+	box-shadow: 10px 10px 10px grey;
+}
+
+* {
+	outline: 2px black;
+}
+
+.menu {
+	width:100px;
+	height:100px;
+	background-color:black;
+	border-radius:50%;
+	position:fixed;
+	top:550px;
+	left:10px;
+	cursor:pointer;
+}
+
+.close {
+	width:100px;
+	height:100px;
+	background-color:white;
+	position:fixed;
+    border-radius:50%;
+	top:550px;
+	left:10px;
+	z-index:10;
+	cursor:pointer;
+	display:none;
+}
+
+.close.show {
+	display:block;
+}
+
+.essay {
+	width:50%;
+	height:100vh;
+	background-color:darkgrey;
+	position:fixed;
+	left:0px;
+	top:0px;
+	overflow:scroll;
+	margin-left:-50%;
+	transition:1s;
+}
+
+.essay.slide {
+	margin-left:0;
+	transition:1s;
+}
+
+.essay h1{
+	font-size:30px;
+	text-align:center;
+	font-family: Bond, bold;
+	color: white;
+	border-left: 40px;
+}
+
+.essay p{
+	padding:20px;
+	font-family: bond;
+	color:white;
+	font-size: 20px;
+	border-left: 40px; 
+}
+
+.source {
+	font-size:8px;
+	color: white
+	border-left: 40px; 
+}
+
+.examples .content {
+	border-radius: 80px;
+	text-align: center;
+	position:fixed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.masthead {
+  background-image:url("https://images.metmuseum.org/CRDImages/ad/original/ap67.187.138.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:100vh;
+  width:100vw;
+  align-items:center;
+  justify-content: center;
+}
+
+.overlay {
+	height:80vh;
+}
+
+.overlay img {
+	height: 100%;
+	width:auto;
+}
+
+.twopage .col {
+	height:100vh;
+	overflow: scroll;
+}
+
+.fourcol .col {
+	height:50vh;
+	display: flex;
+    justify-content: center;
+}
+
+.fourcol .content {
+	height: 100%;
+	align-items: center;
+}
+
+.fourcol .col img {
+	height: 100%;
+	width: auto;
+}
+
+.align-bottom {
+	align-items: flex-end;
+}
+
+.justify-right {
+	justify-content: flex-end;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.fours {
+	font-size:14px;
+}
+
+.offset-left {
+	margin-left: 25%;
+}
+
+.sources a{
+	display: block;
+}
+
+.grid {
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.col {
+	padding: 20px;
+}
+
+.content {
+	padding: 20px;
+}
+
+.w-1of1 {
+	flex:0 0 100%;
+}
+
+.w-1of2 {
+	flex:0 0 50%;
+}
+
+.w-1of3 {
+	flex:0 0 33.33%;
+}
+
+.w-2of3 {
+	flex:0 0 66.66%;
+}
+
+.w-1of4 {
+	flex:0 0 25%;
+}
+
+.w-3of4 {
+	flex:0 0 75%;
+}
+
