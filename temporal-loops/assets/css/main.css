@@ -10,7 +10,6 @@ a {
 
 img {
 	width:100%;
-	box-shadow: 10px 10px 10px grey;
 }
 
 * {
@@ -278,3 +277,10 @@ img {
 	flex:0 0 75%;
 }
 
+.oldphotos img{
+   box-shadow: 10px 10px 10px grey;
+}
+
+.nav {
+	font-size: 30px;
+}
