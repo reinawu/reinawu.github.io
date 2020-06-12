@@ -89,17 +89,20 @@ a {
 .name {
 	font-size:100px;
 	text-align:center;
-	text-shadow:20px 10px 10px red;
-	margin-top:50px;
-	color: white;
+	text-shadow:0px 0px 10px yellow;
+	margin-top:100px;
+	color: darkred;
+	transform: rotate(180deg);
+
 }
 
-.copy{
-	font-size:14px;
+.copyright {
+	font-size:20px;
 	text-align:center;
 	text-transform:uppercase;
 	background-color:red;
 	padding:10px;
 	color:darkred;
+	object-position:fixed,bottom;
 }
 
